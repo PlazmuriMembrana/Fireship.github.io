@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+}
+
+.CV {
+  width: 50%;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+}
+
+.Photo {
+  background-color: #8ea69b;
+  margin-left: 0px;
+  padding: 0px;
+  width: 50%;
+  height: 100vh;
+  right: 0;
+  position: fixed;
+}
+
+img {
+  display: block;
+  width: 40%;
+  margin: auto;
+  margin-top: 30vh;
+}
+
+#CurriculumVitae {
+  margin-left: 10vh;
+  margin-top: 1vh;
+  font-family: "Eczar", serif;
+  font-size: 18px;
+  float: left;
+}
+
+.navebar {
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  justify-content: center;
+  margin-top: 4vh;
+  margin-right: 15px;
+  font-family: "Eczar", serif;
+}
+
+.navbar a {
+  color: #000000;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: #8ea69b;
+}
+
+.navbar li {
+  float: right;
+  margin-right: 10px;
+}
+
+#content {
+  margin-left: 23%;
+  margin-right: 77%;
+  width: 50vh;
+  margin-top: 12vh;
+}
+.left {
+  text-align: left;
+}
+
+h1 {
+  margin-top: 12vh;
+  font-size: 65px;
+  font-family: "Eczar", serif;
+}
+
+#pr {
+  font-family: "Eczar", serif;
+}
+
+#contactInfo {
+  margin-top: 8vh;
+  font-family: "Eczar", serif;
+}
+
+.SeeFullLink {
+  margin-top: 10vh;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#about {
+  margin-top: 40vh;
+  font-family: "Eczar", serif;
+}
+
+#skills {
+  margin-top: 70vh;
+  font-family: "Eczar", serif;
+}
+
+#contacts {
+  margin-top: 80vh;
+  font-family: "Eczar", serif;
+}
+
+.hr-lines {
+  position: relative;
+}
+
+.hr-lines:after {
+  content: " ";
+  height: 1px;
+  width: 75%;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.lines {
+  position: relative;
+}
+
+.lines:after {
+  content: " ";
+  height: 1px;
+  width: 45%;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.footer {
+  margin-top: 70vh;
+  font-size: 15px;
+  color: gray;
+}
